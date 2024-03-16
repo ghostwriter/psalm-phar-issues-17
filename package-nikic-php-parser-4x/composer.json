@@ -1,0 +1,26 @@
+{
+    "name": "example/package-nikic-php-parser-4x",
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "coding-standard": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "Example\\PackageNikicPhpParser4x\\": "src/"
+        }
+    },
+   "repositories": [
+        {
+            "type": "path",
+            "url": "../coding-standard"
+        }
+   ],
+    "authors": [
+        {
+            "name": "Nathanael Esayeas",
+            "email": "nathanael.esayeas@protonmail.com"
+        }
+    ]
+}
